@@ -4,7 +4,7 @@ namespace InterfacePractice
 {
     public class FunnyFunny : IClown
     {
-        private string _funnyThingIHave;
+        protected string _funnyThingIHave;
         public string FunnyThingIHave
         {
             get { return _funnyThingIHave; }

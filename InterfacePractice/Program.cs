@@ -14,7 +14,7 @@ namespace InterfacePractice
             ScaryScary fingersTheClown = new ScaryScary("big shoes", 14);
             FunnyFunny someFunnyClown = fingersTheClown;
             IScaryClown someOtherScaryClown = (ScaryScary) someFunnyClown;
-            someOtherScaryClown.Honk();
+            someOtherScaryClown.ScareLittleChildren();
             Console.ReadKey();
         }
     }

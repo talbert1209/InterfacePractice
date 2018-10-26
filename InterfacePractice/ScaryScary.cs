@@ -23,7 +23,7 @@ namespace InterfacePractice
         //Methods
         public void ScareLittleChildren()
         {
-            Console.WriteLine("Boo! Gotcha!");
+            Console.WriteLine($"You can't have my {FunnyThingIHave}");
         }
     }
 }
