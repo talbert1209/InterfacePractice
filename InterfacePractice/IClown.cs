@@ -1,11 +1,8 @@
 ﻿namespace InterfacePractice
 {
-    partial class Program
+    interface IClown
     {
-        interface IClown
-        {
-            string FunnyThingIHave { get; }
-            void Honk();
-        }
+        string FunnyThingIHave { get; }
+        void Honk();
     }
 }
